@@ -1,8 +1,8 @@
-package SqlParser
+package sqlparser
 
-import Sql.Join
-import Sql.SelectQuery
-import Sql.Sort
+import sql.Join
+import sql.SelectQuery
+import sql.Sort
 
 class SqlParser {
     private val joinList = listOf("right", "left", "cross", "inner", "outer", "left outer", "right outer", "full outer")
@@ -50,7 +50,7 @@ class SqlParser {
 
         selectQuery.fromTables = parseFrom(query)
 
-        query = query.substringAfter("from").substringAfter(selectQuery.fromTables!![selectQuery.fromTables!!.size-1]).trim()
+        query = query.substringAfter("from").substringAfter(selectQuery.fromTables[selectQuery.fromTables.size-1]).trim()
 
         if(query.indexOf("join") >= 0){
             selectQuery.joins = parseJoins(query)
@@ -129,7 +129,7 @@ class SqlParser {
 
         fromString = fromString.substringAfter("from")
 
-        val pattern = """,(?=(?:[^\)]|\([^\(]*\)*)*$)""".toRegex()
+        val pattern = """,(?=(?:[^)]|\([^(]*\)*)*$)""".toRegex()
         val fromTables = pattern.split(fromString).filter { it.isNotBlank() }
 
         return fromTables.map {
@@ -141,12 +141,12 @@ class SqlParser {
      * Parses select joins condition
      */
     private fun parseJoins(Query: String): List<Join>{
-        val joinNum = (joinPatter.split(Query).size - 1);
+        val joinNum = (joinPatter.split(Query).size - 1)
         val result = mutableListOf<Join>()
         var query = Query
 
         for(i in 1..joinNum){
-            val conditionString = joinPatter.split(query).filter { it.isNotEmpty() }.first()
+            val conditionString = joinPatter.split(query).first { it.isNotEmpty() }
             val type = query.substringBefore(conditionString).split("join").first()
             val (table, condition) = conditionString.split("on")
 

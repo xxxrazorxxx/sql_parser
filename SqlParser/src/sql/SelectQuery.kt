@@ -1,4 +1,4 @@
-package Sql
+package sql
 
 
 class SelectQuery {
