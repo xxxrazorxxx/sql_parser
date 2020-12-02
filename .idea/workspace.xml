@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f8695ad9-c509-43c9-b2ec-b6e9c79eff01" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Test/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/src/commonMain/kotlin/sample/Sample.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/src/commonTest/kotlin/sample/SampleTests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/src/iosMain/kotlin/sample/SampleIos.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/src/iosTest/kotlin/sample/SampleTestsNative.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/src/jvmMain/kotlin/sample/SampleJvm.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/src/jvmTest/kotlin/sample/SampleTestsJVM.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1l3y6gibPDRu1h6nHyyH5zT3lbq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="SqlParser" />
+      <recent name="" />
+      <recent name="Sql" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.MainKt (1)">
+    <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="Test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="SqlParser" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.MainKt (1)" />
+        <item itemvalue="Kotlin.MainKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8695ad9-c509-43c9-b2ec-b6e9c79eff01" name="Default Changelist" comment="" />
+      <created>1606839898371</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606839898371</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="595" y="322" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1606840461662">
+      <screen x="0" y="23" width="1651" height="1027" />
+    </state>
+    <state x="595" y="322" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.23.1651.1027@0.23.1651.1027" timestamp="1606840461662" />
+    <state width="1608" height="280" key="GridCell.Tab.0.bottom" timestamp="1606847958143">
+      <screen x="0" y="23" width="1651" height="1027" />
+    </state>
+    <state width="1608" height="280" key="GridCell.Tab.0.bottom/0.23.1651.1027@0.23.1651.1027" timestamp="1606847958143" />
+    <state width="1608" height="280" key="GridCell.Tab.0.center" timestamp="1606847958142">
+      <screen x="0" y="23" width="1651" height="1027" />
+    </state>
+    <state width="1608" height="280" key="GridCell.Tab.0.center/0.23.1651.1027@0.23.1651.1027" timestamp="1606847958142" />
+    <state width="1608" height="280" key="GridCell.Tab.0.left" timestamp="1606847958142">
+      <screen x="0" y="23" width="1651" height="1027" />
+    </state>
+    <state width="1608" height="280" key="GridCell.Tab.0.left/0.23.1651.1027@0.23.1651.1027" timestamp="1606847958142" />
+    <state width="1608" height="280" key="GridCell.Tab.0.right" timestamp="1606847958143">
+      <screen x="0" y="23" width="1651" height="1027" />
+    </state>
+    <state width="1608" height="280" key="GridCell.Tab.0.right/0.23.1651.1027@0.23.1651.1027" timestamp="1606847958143" />
+    <state x="193" y="222" key="new project wizard" timestamp="1606892096154">
+      <screen x="0" y="23" width="1651" height="1027" />
+    </state>
+    <state x="193" y="222" key="new project wizard/0.23.1651.1027@0.23.1651.1027" timestamp="1606892096154" />
+    <state x="668" y="328" key="refactoring.ChangeSignatureDialog" timestamp="1606840358049">
+      <screen x="0" y="23" width="1651" height="1027" />
+    </state>
+    <state x="668" y="328" key="refactoring.ChangeSignatureDialog/0.23.1651.1027@0.23.1651.1027" timestamp="1606840358049" />
+  </component>
+</project>
